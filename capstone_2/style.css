@@ -1,0 +1,53 @@
+#header{
+	margin-bottom: 10px;
+	width: 100vw;
+	height: 100vh;
+	padding-top: 20%;
+	background: linear-gradient(to bottom, #9be2fe 0%,#67d1fb 100%);
+}
+
+#header h1{
+	font-family: Luminari, fantasy; 
+}
+
+#intro .col{
+ width: 100vw;
+}
+
+#intro img{
+	border-radius: 50%;
+}
+
+#intro .col{
+	display: flex;
+   	align-items: center;
+}
+
+#edu{
+	clear: both;
+	width: 100vw;
+}
+
+.tab-pane{
+	padding: 5vh;
+}
+
+body{
+	text-align: center;
+	color: #0F5298 !important;
+}
+
+#carouselExampleCaptions{
+	margin: auto;
+	width: 80%;
+	height: 80%;
+}
+
+.carousel-item img{
+	padding-bottom: 20%;
+}
+
+.text-body-secondary img{
+	height: 80%;
+	margin: 1rem;
+}

@@ -1,0 +1,104 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+#title{
+  width: 100vw;
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  padding-top: 10vh;
+  text-align: center;
+}
+
+.container-title{
+  padding-left: 10vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.box{
+  padding-top: 15vh;
+}
+
+.title-text{
+}
+
+.first-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#testimonial{
+  text-align:center;
+  background-color: #f2f2f2;
+  padding-bottom: 20px;
+  padding-left: 15vw;
+  padding-right: 15vw;
+}
+
+.testi-text{
+  margin-bottom: 5px;
+}
+
+.testi-img{
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 2px;
+}
+
+.testi-img2{
+  height: 30px;
+}
+
+.card-custom{
+  border-color: black; 
+}
+
+#footer{
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  padding-left: 10px;
+}
+
+a{
+  color: var(--bs-secondary-color)!important;
+}
+
+@media (max-width: 576px){
+  .box{
+    padding-top: 0vh;
+    padding-bottom: 5vh;
+  }
+  #title{
+    padding-top: 5vh;
+  }
+}

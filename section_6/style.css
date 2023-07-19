@@ -1,0 +1,12 @@
+img{
+	border: 5px solid white;
+	width: 100%;
+}
+.container{
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 100px;
+	font-family: "Libre Baskerville", serif;
+	color: white;
+	text-align: center;
+}
