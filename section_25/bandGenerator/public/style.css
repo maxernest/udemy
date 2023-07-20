@@ -1,0 +1,21 @@
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 90%;
+  	margin-left: 5%;
+  	margin-right: 5%;
+}
+
+.text-muted{
+	color : white!important;
+}
+
+body{
+	background-color: grey;
+}
+
+.content{
+	margin-top: 30vh;
+	align-items: center;
+	color: #FF03C9;
+}

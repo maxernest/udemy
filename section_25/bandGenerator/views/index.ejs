@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<%- include("head"); %>
+</head>
+<body>
+	<div class="d-flex flex-column content">
+		<% if(locals.name){ %>
+		<h1><%= name %></h1>
+		<% }else{ %>
+			<h1>Welcome to the Band Generator 🤟</h1>
+		<% } %>
+		<a href="/submit">
+			<button type="button" class="btn btn-secondary btn-lg">Generate Name</button>
+		</a>
+	</div>
+	<%- include("footer"); %>
+</body>
+</html>
