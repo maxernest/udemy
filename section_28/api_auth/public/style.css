@@ -1,0 +1,13 @@
+body{
+	background-color: #f0f0f0;
+}
+
+.d-flex{
+	margin-top: 30vh;
+}
+
+.data{
+	padding: 10px;
+	background-color: white;
+	text-align: center;
+}

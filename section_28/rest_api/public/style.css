@@ -1,0 +1,18 @@
+body{
+	background-color: #f0f0f0;
+}
+
+.card{
+	max-width: 600px;
+	margin: 50px auto;
+}
+
+.data{
+	background-color: #f0f0f0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.btn{
+	color: white;
+}
