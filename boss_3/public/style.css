@@ -1,0 +1,14 @@
+.nav-item{
+	text-align: right;
+}
+
+.content{
+	min-height: 75vh;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: 20px;
+}
+
+.post-input{
+	min-height: 200px;
+}
