@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<%- include('header.ejs') %>
+</head>
+<body>
+	<%- include('navbar.ejs') %>
+
+	<div class="content">
+		<div class="container mt-3">
+			<h1>Home</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque felis imperdiet proin fermentum leo. Amet mattis vulputate enim nulla. Magna sit amet purus gravida. Pretium vulputate sapien nec sagittis aliquam malesuada. Vulputate odio ut enim blandit volutpat maecenas. Iaculis at erat pellentesque adipiscing commodo elit. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Diam maecenas sed enim ut sem viverra aliquet. Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum. Ornare suspendisse sed nisi lacus sed viverra tellus in hac. Dolor morbi non arcu risus quis varius. Sit amet nulla facilisi morbi tempus iaculis urna.</p>
+		</div>
+		<% posts.forEach(function(post, i) { %>
+			<div class="container mt-3">
+				<h2><%= post.title %></h2>
+				<p><%= post.content.substring(0,100)+"..."%> <a href= "<%= '/post/'+post.id %>" >Read More</a></p>
+			</div>
+		<% }); %> 
+	</div>
+	<%- include('footer.ejs') %>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<%- include('header.ejs') %>
+</head>
+<body>
+	<%- include('navbar.ejs') %>
+
+	<div class="content">
+		<h1>COMPOSE</h1>
+		<br>
+		<form action="/compose" method="post">
+			<div class="mb-3">
+				<label class="form-label"><b>Title</b></label>
+				<input type="text" class="form-control" name="title" required>
+			</div>
+			<div class="mb-3">
+				<label class="form-label"><b>Post</b></label>
+				<textarea class="form-control" rows="7" name="content"></textarea>
+			</div>
+			<button type="submit" class="btn btn-primary">Publish</button>
+		</form>
+	</div>
+	<%- include('footer.ejs') %>
+</body>
+</html>

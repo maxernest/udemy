@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<%- include('header.ejs') %>
+</head>
+<body>
+	<%- include('navbar.ejs') %>
+
+	<div class="content">
+		<div class="container mt-3">
+			<h1><%= post.title %></h1>
+			<p><%= post.content %></p>
+		</div>
+	</div>
+	
+	<%- include('footer.ejs') %>
+</body>
+</html>
